@@ -1,9 +1,3 @@
-//
-//  APICaller.swift
-//  ChatAI
-//
-//  Created by 小林麟太郎 on 2022/12/28.
-//
 
 import OpenAISwift
 import Foundation

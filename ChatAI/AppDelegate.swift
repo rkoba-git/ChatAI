@@ -1,9 +1,3 @@
-//
-//  AppDelegate.swift
-//  ChatAI
-//
-//  Created by 小林麟太郎 on 2023/01/05.
-//
 
 import SwiftUI
 

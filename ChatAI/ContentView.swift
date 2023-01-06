@@ -29,11 +29,13 @@ struct ContentView: View{
             .padding()
             // ドル記号($)は，状態変数(@Stateを付与した変数)の参照を渡す役割
             //参照したい状態変数名の前に$をつけることで使用することができる
-            Text("AI's answer\n\(answer)")
+            Text("AI's answer")
+                .fontWeight(.black)
+                .multilineTextAlignment(.center)
+            Text(answer)
                 .fontWeight(.black)
                 .multilineTextAlignment(.center)
             Spacer()
-            
             Image("AIimage") //svgファイルなら背景透過可能
                 .resizable()
                 .scaledToFit()

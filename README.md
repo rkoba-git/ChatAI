@@ -1,61 +1,42 @@
 # ChatAI
-# Name（リポジトリ/プロジェクト/OSSなどの名前）
- 
-分かりやすくてカッコイイ名前をつける（今回は"hoge"という名前をつける）
- 
-"hoge"が何かを簡潔に紹介する
- 
 # DEMO
- 
-"hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
+ ChatAIの操作動画
 
- 
+https://user-images.githubusercontent.com/66097422/210932345-64627a16-a280-4874-9c67-7e32bd4897eb.mov
+
 # Features
- 
-"hoge"のセールスポイントや差別化などを説明する
+
+OpenAIのAPIから質問に対する結果を取得
+→ 画面上に表示する
  
 # Requirement
  
-"hoge"を動かすのに必要なライブラリなどを列挙する
- 
-* huga 3.5.2
-* hogehuga 1.0.2
- 
-# Installation
- 
-Requirementで列挙したライブラリなどのインストール方法を説明する
- 
-```bash
-pip install huga_package
-```
- 
+OpenAPIのapikeyが必要
+
+https://beta.openai.com/account/api-keys
+
+にて取得可能
+
 # Usage
  
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
- 
-```bash
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
-```
+ChatAIの使用方法
+
+TextField上にAIにしたい質問を打ち込んで returnキー を打ち込めばok
  
 # Note
  
-注意点などがあれば書く
+apikeyを取得し，自分で貼り付ける必要がある
  
 # Author
  
-作成情報を列挙する
+作成情報
  
-* 作成者
-* 所属
-* E-mail
+* 名前：小林麟太郎
+* E-mail：rinrin1311g@gmail.com
  
-# License
-ライセンスを明示する
- 
-"hoge" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
- 
-社内向けなら社外秘であることを明示してる
- 
-"hoge" is Confidential.
+# References
+
+Build An AI ChatBot with OpenAI (Swift, Xcode 14, 2023)
+
+https://youtu.be/9DjbQpbQVFo
+

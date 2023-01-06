@@ -8,7 +8,8 @@ final class APICaller{
     @frozen enum Constants{ //structではストアドプロパティ、enumではcaseの追加、削除、並び替えを制限する
         
         // OpenAIのapikeyをここで貼り付ける
-        static let key = "キーをここに貼り付けよう"
+        //static let key = "キーをここに貼り付けよう"
+        static let key = "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"
     }
     
     private var client: OpenAISwift?

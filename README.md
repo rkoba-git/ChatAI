@@ -1,14 +1,19 @@
 # ChatAI
+AIを利用した自動チャットアプリを作成しました🧑🏻‍💻 
+
 # DEMO
  ChatAIの操作動画
 
-https://user-images.githubusercontent.com/66097422/210932345-64627a16-a280-4874-9c67-7e32bd4897eb.mov
+
+https://user-images.githubusercontent.com/66097422/211159984-ab6c3e86-0794-4849-9afb-1b4fef6e4466.mov
+
 
 # Features
 
 OpenAIのAPIから質問に対する結果を取得
 → 画面上に表示する
  
+SwiftUIで開発
 # Requirement
  
 OpenAPIのapikeyが必要

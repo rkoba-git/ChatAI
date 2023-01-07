@@ -14,6 +14,7 @@
 		6F4A7BEE295C45A9009BB54A /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4A7BED295C45A9009BB54A /* APICaller.swift */; };
 		6F4A7BF1295C4606009BB54A /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6F4A7BF0295C4606009BB54A /* OpenAISwift */; };
 		6F4A7BF32966F6F6009BB54A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4A7BF22966F6F6009BB54A /* AppDelegate.swift */; };
+		6FBC09C22968294500DD0D1B /* AppHIdeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBC09C12968294500DD0D1B /* AppHIdeControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6F4A7BE5295C40BB009BB54A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6F4A7BED295C45A9009BB54A /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		6F4A7BF22966F6F6009BB54A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6FBC09C12968294500DD0D1B /* AppHIdeControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHIdeControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +61,10 @@
 			children = (
 				6F4A7BF22966F6F6009BB54A /* AppDelegate.swift */,
 				6F4A7BDE295C40B9009BB54A /* ChatAIApp.swift */,
-				6F4A7BE0295C40B9009BB54A /* ContentView.swift */,
-				6F4A7BE2295C40BB009BB54A /* Assets.xcassets */,
+				6FBC09C12968294500DD0D1B /* AppHIdeControl.swift */,
 				6F4A7BED295C45A9009BB54A /* APICaller.swift */,
+				6F4A7BE2295C40BB009BB54A /* Assets.xcassets */,
+				6F4A7BE0295C40B9009BB54A /* ContentView.swift */,
 				6F4A7BE4295C40BB009BB54A /* Preview Content */,
 			);
 			path = ChatAI;
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F4A7BF32966F6F6009BB54A /* AppDelegate.swift in Sources */,
+				6FBC09C22968294500DD0D1B /* AppHIdeControl.swift in Sources */,
 				6F4A7BE1295C40B9009BB54A /* ContentView.swift in Sources */,
 				6F4A7BEE295C45A9009BB54A /* APICaller.swift in Sources */,
 				6F4A7BDF295C40B9009BB54A /* ChatAIApp.swift in Sources */,
